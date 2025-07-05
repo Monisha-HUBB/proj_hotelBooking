@@ -1,2 +1,5 @@
-target/
-*.jar
+node_modules/
+build/
+dist/
+.env
+.DS_Store
