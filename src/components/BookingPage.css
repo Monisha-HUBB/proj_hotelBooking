@@ -1,0 +1,111 @@
+.booking-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 7px;
+  border-radius: 10px;
+  box-shadow: -2px -1px 20px 4px rgb(0 0 0);
+  margin-bottom: 16px;
+  transition: box-shadow 0.3s ease;
+  width: 96.5%;
+  flex-direction: column;
+}
+
+.booking-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.booking-confirmed {
+  background-color: #e6f4ea; /* light green */
+}
+
+.booking-cancelled {
+  background-color: #fde8e8; /* light red */
+}
+.booking-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-title {
+      background: antiquewhite;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.booking-location,
+.booking-price {
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.booking-action {
+  display: flex;
+  align-items: center;
+}
+
+.booking-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* BookingPage.css */
+.booking-page {
+  min-height: 100vh;
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Makes the image stay in place when scrolling */
+  overflow-y: auto; /* Allows vertical scroll */
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-container {
+  padding: 24px;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  flex: 1;
+  overflow-y: auto; /* Optional: Can help if you want internal scroll only */
+  width: 50%;
+}
+
+.booking-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* .booking-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 16px;
+} */
+
+.booking-status.status-confirmed {
+  background-color: green;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.booking-status.status-cancelled {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}

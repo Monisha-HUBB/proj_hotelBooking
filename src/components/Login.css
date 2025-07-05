@@ -1,0 +1,89 @@
+/* Full screen black background */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+/* Glassmorphic login card */
+/* Glassmorphic login card with white border */
+.login-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  color: white;
+
+  /* Add this for white border */
+  border: 2px solid white;
+}
+
+
+/* Login title */
+.login-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Input styles */
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Checkbox and Forget Password */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #a78bfa; /* light purple */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link-button:hover {
+  color: #c4b5fd;
+}
+
+/* Login button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Register link */
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}

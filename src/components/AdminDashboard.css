@@ -1,0 +1,131 @@
+.admin-dashboard {
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding-bottom: 40px;
+}
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.dashboard-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1d4ed8;
+}
+
+.dashboard-table {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.dashboard-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.dashboard-table th, .dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.dashboard-table th {
+  background-color: #1d4ed8;
+  color: white;
+}
+
+.dashboard-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 12px;
+  margin-top: 8px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #4caf50;
+  width: 0%;
+  transition: width 0.5s ease;
+  border-radius: 20px;
+}
+
+
+
+.view-bookings-button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-bookings-button:hover {
+  background-color: #333;
+}
+
+.booking-search {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.scrollable-table {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.dashboard-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th, .dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dashboard-table th {
+  background-color: black;
+}
+
+.dashboard-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

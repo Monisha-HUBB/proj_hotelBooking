@@ -1,0 +1,75 @@
+.search-container {
+  padding: 20px;
+  /* background-color: #f5f7fa;
+  min-height: 100vh; */
+}
+
+.search-box {
+    display: flex;
+    background-color: #665353;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.hotel-card {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.search-input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.search-input label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.search-input input,
+.search-input select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.search-button-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-button {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #e65c00;
+}
+
+.results {
+  margin-top: 40px;
+}
