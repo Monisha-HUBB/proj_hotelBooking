@@ -2,8 +2,6 @@ import { SetStateAction, useEffect, useState } from 'react';
 import { fetchHotels } from '../api/api';
 import HotelCard from './common/HotelCard';
 import Header from './common/Header';
-import Footer from './common/Footer';
-import PaymentPage from './PaymentPage';
 import { useNavigate } from 'react-router-dom';
 
 function HotelList() {
@@ -35,7 +33,6 @@ function HotelList() {
             } } index={0}          />
         ))}
       </div>
-      <Footer />
     </div>
   );
 }

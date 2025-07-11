@@ -60,9 +60,8 @@
 
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { API_BASE_URL, fetchBookings } from '../api/api';
+import { API_BASE_URL} from '../api/api';
 import Header from './common/Header';
-import Footer from './common/Footer';
 import './BookingPage.css';
 
 function BookingPage() {
@@ -126,7 +125,7 @@ fetch(`${API_BASE_URL}/booking/book`, {
   } else {
     loadBookings(); // Load existing bookings
   }
-}, [hotelName, location, amount, userEmail]);
+}, [hotelName, location, amount, userEmail, selectedRooms]);
 
 
   const loadBookings = () => {
@@ -186,7 +185,6 @@ fetch(`${API_BASE_URL}/booking/book`, {
           </div>
         )}
       </div>
-      <Footer />
     </div>
   );
 }

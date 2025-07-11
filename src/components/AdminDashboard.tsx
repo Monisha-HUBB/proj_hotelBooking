@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import Header from './common/Header';
-import Footer from './common/Footer';
 import axios from 'axios';
 import { API_BASE_URL } from '../api/api';
 import './AdminDashboard.css';
@@ -238,7 +237,6 @@ function AdminDashboard() {
           </>
         )}
       </div>
-      <Footer />
     </div>
   );
 }

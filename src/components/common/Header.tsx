@@ -1,14 +1,6 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
-
-  const navigate = useNavigate();
-  
-  const handleSearch = async () => {
-     navigate(`/bookings`);
-  }
-
-  
 
   return (
     <header className="bg-blue-700 text-white p-4 flex justify-between items-center" >
