@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { searchHotels } from '../api/api';
 import Header from './common/Header';
-import Footer from './common/Footer';
 import HotelCard from './common/HotelCard';
 import './SearchPage.css';
 import { useNavigate } from 'react-router-dom';
