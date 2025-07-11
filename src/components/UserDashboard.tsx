@@ -1,7 +1,5 @@
-import React from 'react';
-import HotelList from './HotelList';
+
 import Header from './common/Header';
-import Footer from './common/Footer';
 
 const UserDashboard = () => {
   // return (
